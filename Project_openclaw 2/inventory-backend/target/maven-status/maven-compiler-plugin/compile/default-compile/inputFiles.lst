@@ -1,0 +1,5 @@
+/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/InventoryApplication.java
+/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/controller/InventoryController.java
+/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Product.java
+/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/exception/GlobalExceptionHandler.java
+/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/repository/ProductRepository.java

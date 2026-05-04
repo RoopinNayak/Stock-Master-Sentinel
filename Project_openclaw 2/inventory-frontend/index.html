@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockMaster Sentinel - SOC Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Dark SOC Theme */
+        body { background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%); color: #e2e8f0; }
+        .card-bg { background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(56, 189, 248, 0.2); }
+        .card-bg:hover { border-color: rgba(56, 189, 248, 0.4); box-shadow: 0 0 20px rgba(56, 189, 248, 0.1); }
+
+        /* Neon Accents */
+        .neon-cyan { color: #06b6d4; text-shadow: 0 0 10px #06b6d4; }
+        .neon-amber { color: #f59e0b; text-shadow: 0 0 10px #f59e0b; }
+        .neon-red { color: #ef4444; text-shadow: 0 0 10px #ef4444; }
+        .neon-green { color: #10b981; text-shadow: 0 0 10px #10b981; }
+
+        /* Status Indicators */
+        .status-healthy { background: rgba(16, 185, 129, 0.2); border: 1px solid #10b981; }
+        .status-warning { background: rgba(245, 158, 11, 0.2); border: 1px solid #f59e0b; }
+        .status-critical { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; }
+        .status-normal { background: rgba(16, 185, 129, 0.2); border: 1px solid #10b981; }
+
+        /* AI Avatar Animation */
+        .heartbeat-pulse {
+            animation: heartbeat 2s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.5); }
+        ::-webkit-scrollbar-thumb { background: rgba(56, 189, 248, 0.5); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(56, 189, 248, 0.7); }
+
+        /* Low stock styling */
+        .low-stock { background-color: rgba(239, 68, 68, 0.1); border-left: 4px solid #ef4444; }
+        .low-stock:hover { background-color: rgba(239, 68, 68, 0.2); }
+        .normal-stock { background-color: rgba(16, 185, 129, 0.1); border-left: 4px solid #10b981; }
+        .normal-stock:hover { background-color: rgba(16, 185, 129, 0.2); }
+
+        .toast-container { position: fixed; top: 1rem; right: 1rem; z-index: 50; display: flex; flex-direction: column; gap: 0.75rem; }
+        .toast { min-width: 280px; padding: 1rem 1.1rem; border-radius: 1rem; box-shadow: 0 20px 60px rgba(15,23,42,0.35); background: rgba(15,23,42,0.96); border: 1px solid rgba(56,189,248,0.2); color: #e2e8f0; opacity: 0; transform: translateY(-10px); transition: opacity 0.25s ease, transform 0.25s ease; }
+        .toast.show { opacity: 1; transform: translateY(0); }
+        .toast.success { border-color: #10b981; }
+        .toast.error { border-color: #ef4444; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div id="toastContainer" class="toast-container"></div>
+    <!-- SOC Header -->
+    <nav class="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 border-b border-cyan-500/20 shadow-2xl">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <!-- AI Avatar with Heartbeat -->
+                    <div class="relative">
+                        <div class="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center heartbeat-pulse">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full animate-pulse"></div>
+                    </div>
+
+                    <div>
+                        <h1 class="text-2xl font-bold neon-cyan">StockMaster Sentinel</h1>
+                        <p class="text-xs text-slate-400">AI Security Operations Center</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                        <span class="text-sm text-green-400">SYSTEM ACTIVE</span>
+                    </div>
+                    <span class="text-sm bg-slate-700 px-3 py-1 rounded-full border border-cyan-500/30">API: localhost:8080</span>
+                    <a href="login.html" class="text-sm bg-slate-700 px-3 py-1 rounded-full border border-slate-600/30 text-slate-200 hover:bg-slate-700/80 transition">Setup</a>
+                    <span id="status" class="text-sm bg-green-500/20 px-3 py-1 rounded-full border border-green-500/50 text-green-400">● ONLINE</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-6 py-8">
+        <!-- SOC Stats Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="card-bg rounded-lg p-6 border-t-4 border-cyan-400">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="text-slate-400 text-sm">Total Products</div>
+                        <div class="text-3xl font-bold text-white" id="totalProducts">-</div>
+                    </div>
+                    <div class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-bg rounded-lg p-6 border-t-4 border-amber-400">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="text-slate-400 text-sm">Low Stock Alerts</div>
+                        <div class="text-3xl font-bold text-amber-400" id="lowStockCount">-</div>
+                    </div>
+                    <div class="w-12 h-12 bg-amber-500/20 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-bg rounded-lg p-6 border-t-4 border-green-400">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="text-slate-400 text-sm">Total Inventory Value</div>
+                        <div class="text-3xl font-bold text-green-400" id="totalValue">-</div>
+                    </div>
+                    <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-bg rounded-lg p-6 border-t-4 border-blue-400">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="text-slate-400 text-sm">Last System Check</div>
+                        <div class="text-lg font-semibold text-blue-400" id="lastUpdated">-</div>
+                    </div>
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sentinel's Thoughts (AI Reasoning Feed) -->
+        <div class="card-bg rounded-lg p-6 mb-8 border-t-4 border-cyan-400">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center heartbeat-pulse">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold text-white neon-cyan">🧠 Sentinel's Thoughts</h2>
+                </div>
+                <span class="text-sm text-slate-400 bg-slate-700/50 px-3 py-1 rounded-full">Live AI Feed</span>
+            </div>
+            <div id="reasoningFeed" class="space-y-2 max-h-48 overflow-y-auto bg-slate-800/50 p-4 rounded-lg border border-slate-600/30">
+                <div class="text-slate-500 text-sm italic">Initializing AI thought stream...</div>
+            </div>
+        </div>
+
+        <!-- Critical Alerts Panel -->
+        <div id="alertSection" class="hidden mb-8">
+            <div class="status-critical rounded-lg p-6 border-l-4 border-red-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-6 h-6 text-red-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                    </svg>
+                    <h3 class="text-lg font-semibold text-red-400 neon-red">🚨 Critical Stock Alert</h3>
+                </div>
+                <ul id="alertList" class="mt-3 space-y-2"></ul>
+            </div>
+        </div>
+
+        <!-- Command Center -->
+        <div class="card-bg rounded-lg p-6 mb-8 border-t-4 border-amber-400">
+            <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-4">
+                <div>
+                    <h2 class="text-xl font-semibold text-white neon-amber">🧩 Command Center</h2>
+                    <p class="text-sm text-slate-400 mt-1">Send a command like "restock 20 units of Coffee Beans" directly to Sentinel.</p>
+                </div>
+                <div class="space-y-2 text-right">
+                    <span class="text-xs uppercase tracking-widest text-slate-400">Quick Actions</span>
+                    <div class="flex flex-wrap gap-2 justify-end">
+                        <button onclick="simulateShortage()" class="px-4 py-2 rounded-full bg-red-500/20 text-red-300 border border-red-500/30 hover:bg-red-500/30 transition">🚨 Simulate Shortage</button>
+                        <button onclick="triggerBIAnalysis()" class="px-4 py-2 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition">📊 Run BI Analysis</button>
+                        <button onclick="healthCheck()" class="px-4 py-2 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500/30 transition">🛠 System Health Check</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid gap-4 lg:grid-cols-[1.5fr_0.7fr]">
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2" for="commandInput">Enter command</label>
+                    <div class="flex gap-2">
+                        <input id="commandInput" type="text" placeholder="restock 20 units of Coffee Beans" class="w-full rounded-xl border border-slate-600 bg-slate-900/90 px-4 py-3 text-slate-200 focus:outline-none focus:border-cyan-400" />
+                        <button onclick="sendCommand()" class="rounded-xl bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-cyan-400 transition">Send</button>
+                    </div>
+                </div>
+                <div class="rounded-xl bg-slate-900/80 p-4 border border-slate-600/30">
+                    <div class="text-sm text-slate-400 mb-2">Command status</div>
+                    <div id="commandStatus" class="text-sm text-slate-200">Ready for your instruction.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inventory Matrix -->
+        <div id="newItemModal" class="fixed inset-0 z-40 hidden items-center justify-center bg-slate-950/75 px-4 py-6">
+            <div class="w-full max-w-2xl rounded-3xl border border-cyan-500/20 bg-slate-900 p-8 shadow-2xl">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white neon-cyan">Add New Inventory Item</h3>
+                        <p class="text-sm text-slate-400">Register a new product and grow your catalog.</p>
+                    </div>
+                    <button onclick="closeAddItemModal()" class="text-slate-400 hover:text-white">✕</button>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <label class="text-sm text-slate-300">Product Name</label>
+                        <input id="newItemName" type="text" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100" placeholder="Coffee Beans" />
+                    </div>
+                    <div class="grid gap-4 md:grid-cols-2">
+                        <div>
+                            <label class="text-sm text-slate-300">Quantity</label>
+                            <input id="newItemQuantity" type="number" min="1" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100" placeholder="20" />
+                        </div>
+                        <div>
+                            <label class="text-sm text-slate-300">Threshold</label>
+                            <input id="newItemThreshold" type="number" min="1" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100" placeholder="10" />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-sm text-slate-300">Price</label>
+                        <input id="newItemPrice" type="number" min="0" step="0.01" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100" placeholder="12.50" />
+                    </div>
+                    <div class="flex items-center justify-between gap-4 pt-2">
+                        <span id="newItemStatus" class="text-sm text-slate-400">Enter the new product details.</span>
+                        <button onclick="submitNewItem()" class="rounded-2xl bg-amber-500 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-400 transition">Save Item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-bg rounded-lg overflow-hidden border border-slate-600/30">
+            <div class="px-6 py-4 border-b border-slate-600/30 bg-slate-800/50 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h2 class="text-xl font-semibold text-white neon-cyan">📊 Inventory Matrix</h2>
+                    <p class="text-sm text-slate-400 mt-1">Real-time stock monitoring & analysis</p>
+                </div>
+                <button onclick="openAddItemModal()" class="rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-cyan-400 transition">+ Add New Item</button>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead class="bg-slate-700/50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">ID</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">Product</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">Quantity</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">Threshold</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">Price</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-slate-300 uppercase tracking-wider">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productsTable" class="divide-y divide-slate-600/30">
+                        <tr>
+                            <td colspan="6" class="px-6 py-4 text-center text-slate-500">Initializing system scan...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8080/api/inventory';
+        
+        async function fetchProducts() {
+            try {
+                const response = await fetch(`${API_URL}/products`);
+                if (!response.ok) throw new Error('API error');
+                return await response.json();
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('status').innerHTML = '● OFFLINE';
+                document.getElementById('status').className = 'text-sm bg-red-500/20 px-3 py-1 rounded-full border border-red-500/50 text-red-400';
+                return [];
+            }
+        }
+
+        async function fetchLowStock() {
+            try {
+                const response = await fetch(`${API_URL}/low-stock`);
+                if (!response.ok) throw new Error('API error');
+                return await response.json();
+            } catch (error) {
+                return [];
+            }
+        }
+
+        async function fetchReasoningFeed() {
+            try {
+                const response = await fetch(`${API_URL}/reasoning`);
+                if (response.ok) {
+                    const text = await response.text();
+                    const lines = text.trim().split('\n').filter(line => line.trim());
+                    
+                    const feedContainer = document.getElementById('reasoningFeed');
+                    feedContainer.innerHTML = lines.slice(-12).reverse().map(line => {
+                        const [timestamp, ...messageParts] = line.split('] ');
+                        const message = messageParts.join('] ');
+                        return `<div class="text-sm text-slate-300 py-1 border-b border-slate-700 last:border-b-0">
+                            <span class="text-slate-500">${timestamp}]</span> ${message}
+                        </div>`;
+                    }).join('');
+                }
+            } catch (error) {
+                // Silently fail - reasoning feed is optional
+            }
+        }
+
+        function showToast(message, type = 'success') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            toast.innerHTML = `<div class="font-semibold text-sm">${type === 'success' ? 'Success' : 'Error'}</div><div class="text-sm text-slate-300 mt-1">${message}</div>`;
+            container.appendChild(toast);
+            requestAnimationFrame(() => toast.classList.add('show'));
+            setTimeout(() => {
+                toast.classList.remove('show');
+                setTimeout(() => toast.remove(), 250);
+            }, 3800);
+        }
+
+        function updateCommandStatus(message, isError = false) {
+            const status = document.getElementById('commandStatus');
+            status.textContent = message;
+            status.className = isError ? 'text-sm text-red-300' : 'text-sm text-slate-200';
+        }
+
+        async function sendCommand() {
+            const commandText = document.getElementById('commandInput').value.trim();
+            if (!commandText) {
+                updateCommandStatus('Please enter a command first.', true);
+                return;
+            }
+
+            const restockMatch = commandText.match(/restock\s+(\d+)\s+(?:units\s+of\s+)?(.+)/i);
+            if (!restockMatch) {
+                updateCommandStatus('Unknown command. Use "restock 20 units of Coffee Beans".', true);
+                return;
+            }
+
+            const quantity = parseInt(restockMatch[1], 10);
+            const productName = restockMatch[2].trim();
+            const products = await fetchProducts();
+            const product = products.find(p => p.name.toLowerCase() === productName.toLowerCase() || p.name.toLowerCase().includes(productName.toLowerCase()));
+
+            if (!product) {
+                updateCommandStatus(`Product not found: ${productName}`, true);
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/restock`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        productId: product.id,
+                        quantity,
+                        commandText
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.text();
+                    updateCommandStatus(`Restock failed: ${error}`, true);
+                    showToast('Restock command failed.', 'error');
+                    return;
+                }
+
+                updateCommandStatus(`Command sent: ${commandText}`);
+                showToast('Restock command delivered.', 'success');
+                document.getElementById('commandInput').value = '';
+                await updateDashboard();
+                await fetchReasoningFeed();
+            } catch (error) {
+                updateCommandStatus('Command failed. Check connection.', true);
+                showToast('Command failed. Check connection.', 'error');
+                console.error(error);
+            }
+        }
+
+        async function simulateShortage() {
+            updateCommandStatus('Simulating shortage...');
+            try {
+                const response = await fetch(`${API_URL}/simulate-shortage`, { method: 'POST' });
+                if (!response.ok) {
+                    updateCommandStatus('Simulation failed.', true);
+                    showToast('Shortage simulation failed.', 'error');
+                    return;
+                }
+                await updateDashboard();
+                await fetchReasoningFeed();
+                updateCommandStatus('Shortage simulated. Watch the alerts trigger.');
+                showToast('Shortage simulation triggered.', 'success');
+            } catch (error) {
+                updateCommandStatus('Simulation failed. Check backend.', true);
+                showToast('Shortage simulation failed.', 'error');
+                console.error(error);
+            }
+        }
+
+        async function triggerBIAnalysis() {
+            updateCommandStatus('Triggering BI analysis...');
+            try {
+                const response = await fetch(`${API_URL}/run-bi`, { method: 'POST' });
+                if (!response.ok) {
+                    updateCommandStatus('BI analysis failed.', true);
+                    showToast('BI analysis failed.', 'error');
+                    return;
+                }
+                await fetchReasoningFeed();
+                updateCommandStatus('BI analysis executed. Review the reasoning feed.');
+                showToast('BI analysis executed successfully.', 'success');
+            } catch (error) {
+                updateCommandStatus('BI trigger failed.', true);
+                showToast('BI analysis failed.', 'error');
+                console.error(error);
+            }
+        }
+
+        async function healthCheck() {
+            updateCommandStatus('Performing health check...');
+            try {
+                const response = await fetch(`${API_URL}/health`);
+                if (!response.ok) {
+                    updateCommandStatus('Health check failed.', true);
+                    showToast('Health check failed.', 'error');
+                    return;
+                }
+                const data = await response.json();
+                document.getElementById('status').innerHTML = '● OK';
+                document.getElementById('status').className = 'text-sm bg-green-500/20 px-3 py-1 rounded-full border border-green-500/50 text-green-400';
+                updateCommandStatus(`Health OK @ ${data.timestamp}`);
+                showToast('Health check passed.', 'success');
+            } catch (error) {
+                updateCommandStatus('Health check failed.', true);
+                showToast('Health check failed.', 'error');
+                console.error(error);
+            }
+        }
+
+        function openAddItemModal() {
+            document.getElementById('newItemModal').classList.remove('hidden');
+        }
+
+        function closeAddItemModal() {
+            document.getElementById('newItemModal').classList.add('hidden');
+        }
+
+        async function submitNewItem() {
+            const name = document.getElementById('newItemName').value.trim();
+            const quantity = parseInt(document.getElementById('newItemQuantity').value, 10);
+            const threshold = parseInt(document.getElementById('newItemThreshold').value, 10);
+            const price = parseFloat(document.getElementById('newItemPrice').value);
+            const status = document.getElementById('newItemStatus');
+
+            if (!name || !quantity || !threshold || isNaN(price)) {
+                status.textContent = 'Please fill in all fields with valid values.';
+                status.className = 'text-sm text-red-300';
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/add`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name,
+                        quantity,
+                        threshold,
+                        price
+                    })
+                });
+
+                if (!response.ok) {
+                    status.textContent = 'Unable to add item. Check backend.';
+                    status.className = 'text-sm text-red-300';
+                    showToast('Add item failed.', 'error');
+                    return;
+                }
+
+                status.textContent = 'Item added successfully.';
+                status.className = 'text-sm text-green-300';
+                showToast('New item added.', 'success');
+                closeAddItemModal();
+                await updateDashboard();
+                await fetchReasoningFeed();
+            } catch (error) {
+                status.textContent = 'Network error. Check backend.';
+                status.className = 'text-sm text-red-300';
+                showToast('Add item failed.', 'error');
+                console.error(error);
+            }
+        }
+
+        function formatCurrency(value) {
+            return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
+        }
+
+        function formatTime() {
+            return new Date().toLocaleTimeString();
+        }
+
+        async function updateDashboard() {
+            const products = await fetchProducts();
+            const lowStock = await fetchLowStock();
+            const lowStockIds = new Set(lowStock.map(p => p.id));
+            
+            // Update stats
+            document.getElementById('totalProducts').textContent = products.length;
+            document.getElementById('lowStockCount').textContent = lowStock.length;
+            document.getElementById('lastUpdated').textContent = formatTime();
+            
+            const totalValue = products.reduce((sum, p) => sum + (p.price * p.quantity), 0);
+            document.getElementById('totalValue').textContent = formatCurrency(totalValue);
+            
+            // Update alert section
+            const alertSection = document.getElementById('alertSection');
+            const alertList = document.getElementById('alertList');
+            
+            if (lowStock.length > 0) {
+                alertSection.classList.remove('hidden');
+                alertList.innerHTML = lowStock.map(p => 
+                    `<li class="text-red-300 py-2 border-b border-red-500/20 last:border-b-0">
+                        <span class="neon-red font-semibold">⚠️ ${p.name}</span> - 
+                        <span class="text-slate-300">Qty: ${p.quantity} | Threshold: ${p.threshold}</span>
+                    </li>`
+                ).join('');
+            } else {
+                alertSection.classList.add('hidden');
+            }
+            
+            // Update table
+            const tbody = document.getElementById('productsTable');
+            tbody.innerHTML = products.map(p => {
+                const isLow = lowStockIds.has(p.id);
+                const rowClass = isLow ? 'low-stock' : 'normal-stock';
+                const statusBadge = isLow 
+                    ? '<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium status-critical">🔴 CRITICAL</span>'
+                    : '<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium status-normal">🟢 NORMAL</span>';
+                
+                return `
+                    <tr class="${rowClass} hover:bg-slate-700/30 transition-colors">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-300">${p.id}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-white">${p.name}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-300">${p.quantity}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-300">${p.threshold}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-300">${formatCurrency(p.price)}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">${statusBadge}</td>
+                    </tr>
+                `;
+            }).join('');
+            
+            // Update reasoning feed
+            await fetchReasoningFeed();
+        }
+
+        // Initial load
+        updateDashboard();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(updateDashboard, 30000);
+        
+        // Update reasoning feed every 10 seconds
+        setInterval(fetchReasoningFeed, 10000);
+    </script>
+</body>
+</html>

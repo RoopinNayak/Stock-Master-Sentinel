@@ -1,0 +1,4 @@
+com/stockmaster/inventory/repository/ProductRepository.class
+com/stockmaster/inventory/InventoryApplication.class
+com/stockmaster/inventory/controller/InventoryController.class
+com/stockmaster/inventory/entity/Product.class

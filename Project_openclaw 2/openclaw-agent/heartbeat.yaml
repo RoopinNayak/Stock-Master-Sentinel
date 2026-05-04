@@ -1,0 +1,17 @@
+# Heartbeat Configuration
+# Checks inventory every 60 seconds
+
+interval: 60  # seconds
+enabled: true
+
+# API endpoint to check
+api_url: http://localhost:8080/api/inventory/low-stock
+
+# Actions to perform on each heartbeat
+actions:
+  - type: check_inventory
+    description: Check for low-stock items
+  - type: alert
+    description: Generate alerts for items below threshold
+  - type: log
+    description: Log audit trail entry
