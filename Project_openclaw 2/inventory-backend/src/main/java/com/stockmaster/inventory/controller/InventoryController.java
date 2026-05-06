@@ -19,6 +19,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -35,6 +37,7 @@ public class InventoryController {
     
     private static final ObjectMapper objectMapper = new ObjectMapper();
     private static final DateTimeFormatter TIMESTAMP_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    private final List<String> recentAuditLogs = Collections.synchronizedList(new ArrayList<>());
 
     @GetMapping("/low-stock")
     public ResponseEntity<List<Product>> getLowStockProducts() {
@@ -119,6 +122,7 @@ public class InventoryController {
 
         appendReasoningFeed("USER COMMAND: Simulate shortage for " + chosen.getName());
         appendReasoningFeed("SYSTEM: Forced shortage detected for " + chosen.getName() + " (qty=" + newQuantity + ")");
+        logAudit(chosen.getId(), "Missing Shipment - System Simulation", chosen.getThreshold() - newQuantity);
 
         return ResponseEntity.ok(updated);
     }
@@ -172,9 +176,23 @@ public class InventoryController {
             return ResponseEntity.status(500).body("Unable to read reasoning feed");
         }
     }
+
+    @GetMapping("/agent/context")
+    public ResponseEntity<Map<String, Object>> getAgentContext() {
+        List<Product> lowStock = productRepository.findLowStockProducts();
+        return ResponseEntity.ok(Map.of(
+                "lowStock", lowStock,
+                "auditLogs", new ArrayList<>(recentAuditLogs)
+        ));
+    }
     
     private void logAudit(Integer productId, String action, Integer quantity) {
-        System.out.println("AUDIT: Product " + productId + " - " + action + " - Quantity: " + quantity);
+        String logEntry = "AUDIT: Product " + productId + " - " + action + " - Quantity/Diff: " + quantity + " @ " + LocalDateTime.now().format(TIMESTAMP_FORMAT);
+        System.out.println(logEntry);
+        recentAuditLogs.add(logEntry);
+        if (recentAuditLogs.size() > 100) {
+            recentAuditLogs.remove(0);
+        }
     }
     
     private void appendReasoningFeed(String entry) {

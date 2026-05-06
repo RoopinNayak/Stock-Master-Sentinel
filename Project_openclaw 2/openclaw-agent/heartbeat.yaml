@@ -1,17 +1,18 @@
 # Heartbeat Configuration
-# Checks inventory every 60 seconds
+# Production Design: Checks inventory every 4-6 hours
+# Demo Mode: 60 seconds
 
-interval: 60  # seconds
+interval: 60  # seconds (Demo interval)
 enabled: true
 
 # API endpoint to check
-api_url: http://localhost:8080/api/inventory/low-stock
+api_url: http://localhost:8080/api/agent/context
 
 # Actions to perform on each heartbeat
 actions:
-  - type: check_inventory
-    description: Check for low-stock items
+  - type: acquire_data
+    description: Get low stock and audit logs from backend
+  - type: reason
+    description: Analyze audit logs and cross-reference with market data
   - type: alert
-    description: Generate alerts for items below threshold
-  - type: log
-    description: Log audit trail entry
+    description: Write insights and suggested messages to reasoning_feed.txt

@@ -9,11 +9,14 @@ import json
 import os
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
 
+load_dotenv()
+
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+ENABLE_DISCORD = bool(DISCORD_WEBHOOK_URL)
 # Configuration
 # In production, use environment variables
-DISCORD_WEBHOOK_URL = None  # Set your Discord webhook URL here
-ENABLE_DISCORD = False
 ENABLE_CONSOLE = True  # Always enable console output for demo
 SETTINGS_API_URL = "http://localhost:8080/api/settings"
 

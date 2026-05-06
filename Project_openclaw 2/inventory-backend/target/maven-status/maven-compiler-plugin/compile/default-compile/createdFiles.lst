@@ -1,4 +1,9 @@
 com/stockmaster/inventory/repository/ProductRepository.class
+com/stockmaster/inventory/controller/InventoryController$1.class
 com/stockmaster/inventory/InventoryApplication.class
+com/stockmaster/inventory/entity/Settings.class
 com/stockmaster/inventory/controller/InventoryController.class
 com/stockmaster/inventory/entity/Product.class
+com/stockmaster/inventory/exception/GlobalExceptionHandler.class
+com/stockmaster/inventory/controller/SettingsController.class
+com/stockmaster/inventory/repository/SettingsRepository.class

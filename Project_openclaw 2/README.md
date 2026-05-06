@@ -62,23 +62,21 @@ Small and Medium Enterprises (SMEs) lose **countless hours** to manual inventory
 
 ---
 
-## 🤖 Sovereign AI
+## 🤖 The "Brain": Autonomous Intelligence & Sovereignty
 
-### Your Data Stays Local
+### 1. Autonomous Intelligence (The "Why")
+Frame it as an **Autonomous Operations Agent**. In a professional setting, a manager's time is often wasted on "checking" things. StockMaster Sentinel wins by moving the "checking" from the human to the AI.
 
-Unlike cloud-based AI solutions that send your business data to external servers, StockMaster Sentinel runs **100% locally**:
+- 🧠 **Proactive Reasoning**: Standard cron jobs just see "low stock". Sentinel sees a low number, reads the audit logs to find out *why* (e.g. "Missing Shipment"), cross-references market data for supply chain delays, and drafts a complete WhatsApp message to the supplier.
+- ⚡ **Contextual Action**: It doesn't just alert; it investigates the root cause before a human even opens the dashboard.
+- 📈 **Continuous Monitoring**: Always watching, always analyzing, never sleeping.
 
-- 🔒 **Zero Data Exfiltration**: All processing happens on your hardware
-- 🏢 **SME-Friendly**: No expensive cloud subscriptions
-- ⚡ **Instant Response**: No latency from network calls
-- 🔐 **Privacy-First**: Your inventory data never leaves your network
+### 2. Sovereign AI (The "How")
+Unlike cloud-based AI solutions that send your private business data to external servers, StockMaster Sentinel is built on OpenClaw and runs **100% locally**:
 
-### Intelligent Capabilities
-
-- **Market Intelligence**: Real-time price trend analysis
-- **Predictive Restocking**: Prevents stockouts before they happen
-- **Business Analytics**: Identifies sales patterns and optimization opportunities
-- **Natural Language Commands**: "Restock 25 units of Milk" → Automatic execution
+- 🔒 **Zero Data Exfiltration**: Your private inventory data, supplier details, and audit logs never leave your network. 
+- 🛡️ **Secure External Bridge**: The agent only sends *summarized, safe intelligence* externally (like the Discord Webhook Relay) while keeping the raw database rows safely locked in your local Spring Boot instance.
+- 🏢 **SME-Friendly**: No expensive cloud subscriptions or data leak nightmares.
 
 ---
 

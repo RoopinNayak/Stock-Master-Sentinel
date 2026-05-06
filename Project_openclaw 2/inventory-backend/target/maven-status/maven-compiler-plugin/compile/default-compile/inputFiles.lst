@@ -1,5 +1,8 @@
-/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/InventoryApplication.java
-/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/controller/InventoryController.java
-/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Product.java
-/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/exception/GlobalExceptionHandler.java
-/Users/roopin/Desktop/Project_openclaw/inventory-backend/src/main/java/com/stockmaster/inventory/repository/ProductRepository.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/InventoryApplication.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/controller/InventoryController.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/controller/SettingsController.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Product.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Settings.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/exception/GlobalExceptionHandler.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/repository/ProductRepository.java
+/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/repository/SettingsRepository.java

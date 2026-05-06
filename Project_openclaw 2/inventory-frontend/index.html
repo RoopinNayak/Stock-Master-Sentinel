@@ -148,24 +148,9 @@
             </div>
         </div>
 
-        <!-- Sentinel's Thoughts (AI Reasoning Feed) -->
-        <div class="card-bg rounded-lg p-6 mb-8 border-t-4 border-cyan-400">
-            <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center heartbeat-pulse">
-                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-xl font-semibold text-white neon-cyan">🧠 Sentinel's Thoughts</h2>
-                </div>
-                <span class="text-sm text-slate-400 bg-slate-700/50 px-3 py-1 rounded-full">Live AI Feed</span>
-            </div>
-            <div id="reasoningFeed" class="space-y-2 max-h-48 overflow-y-auto bg-slate-800/50 p-4 rounded-lg border border-slate-600/30">
-                <div class="text-slate-500 text-sm italic">Initializing AI thought stream...</div>
-            </div>
-        </div>
-
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Column: Operations -->
+            <div class="lg:col-span-2 space-y-8">
         <!-- Critical Alerts Panel -->
         <div id="alertSection" class="hidden mb-8">
             <div class="status-critical rounded-lg p-6 border-l-4 border-red-500">
@@ -275,6 +260,29 @@
                 </table>
             </div>
         </div>
+            </div> <!-- End Left Column -->
+
+            <!-- Right Column: AI Live Feed -->
+            <div class="lg:col-span-1 space-y-8">
+                <!-- Sentinel's Thoughts (AI Reasoning Feed) -->
+                <div class="card-bg rounded-lg p-6 border-t-4 border-cyan-400 h-full flex flex-col">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center heartbeat-pulse">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-xl font-semibold text-white neon-cyan">Sentinel Live Feed</h2>
+                        </div>
+                        <span class="text-xs text-slate-400 bg-slate-700/50 px-2 py-1 rounded-full">Terminal</span>
+                    </div>
+                    <div id="reasoningFeed" class="space-y-2 flex-1 overflow-y-auto bg-[#0a0a0a] p-4 rounded-lg border border-slate-600/30 font-mono text-sm max-h-[700px]">
+                        <div class="text-slate-500 italic">> Initializing AI thought stream...</div>
+                    </div>
+                </div>
+            </div> <!-- End Right Column -->
+        </div> <!-- End Grid -->
     </div>
 
     <script>
@@ -311,11 +319,23 @@
                     const lines = text.trim().split('\n').filter(line => line.trim());
                     
                     const feedContainer = document.getElementById('reasoningFeed');
-                    feedContainer.innerHTML = lines.slice(-12).reverse().map(line => {
+                    feedContainer.innerHTML = lines.slice(-20).reverse().map(line => {
                         const [timestamp, ...messageParts] = line.split('] ');
                         const message = messageParts.join('] ');
-                        return `<div class="text-sm text-slate-300 py-1 border-b border-slate-700 last:border-b-0">
-                            <span class="text-slate-500">${timestamp}]</span> ${message}
+                        
+                        let formattedMessage = message;
+                        if (message.startsWith('Issue:')) {
+                            formattedMessage = `<span class="text-amber-400">${message}</span>`;
+                        } else if (message.startsWith('Analysis:')) {
+                            formattedMessage = `<span class="text-cyan-400">${message}</span>`;
+                        } else if (message.startsWith('Action:')) {
+                            formattedMessage = `<span class="text-green-400">${message}</span>`;
+                        } else if (message.includes('CRITICAL ALERT')) {
+                            formattedMessage = `<span class="text-red-500 font-bold animate-pulse">${message}</span>`;
+                        }
+                        
+                        return `<div class="py-1 border-b border-slate-800 last:border-b-0 break-words">
+                            <span class="text-slate-500 text-xs">${timestamp}]</span><br/>> ${formattedMessage}
                         </div>`;
                     }).join('');
                 }
