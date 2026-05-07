@@ -131,7 +131,7 @@ public class InventoryController {
     public ResponseEntity<Map<String, Object>> runBusinessIntelligence() {
         try {
             Path scriptPath = Paths.get(System.getProperty("user.dir")).resolve("../openclaw-agent/skills/analyze_performance.py").normalize();
-            ProcessBuilder builder = new ProcessBuilder("python3", scriptPath.toString());
+            ProcessBuilder builder = new ProcessBuilder("python", scriptPath.toString());
             builder.directory(Paths.get(System.getProperty("user.dir")).toFile());
             Process process = builder.start();
 

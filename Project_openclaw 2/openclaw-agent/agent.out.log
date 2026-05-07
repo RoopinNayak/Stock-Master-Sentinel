@@ -1,0 +1,1834 @@
+==================================================
+StockMaster Sentinel Agent Started
+API: http://localhost:8080/api/inventory
+Check Interval: 10 seconds
+🎭 DEMO MODE ACTIVE - Accelerated heartbeat for presentations
+==================================================
+
+[2026-05-08 01:57:10] Heartbeat #1
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 01:57:20] Heartbeat #2
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 01:57:30] Heartbeat #3
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 01:57:41] Heartbeat #4
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:57:52] Heartbeat #5
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:58:02] Heartbeat #6
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 01:58:14] Heartbeat #7
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:58:25] Heartbeat #8
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:58:36] Heartbeat #9
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 01:58:47] Heartbeat #10
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:58:58] Heartbeat #11
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:59:09] Heartbeat #12
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 01:59:20] Heartbeat #13
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:59:31] Heartbeat #14
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 01:59:42] Heartbeat #15
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 01:59:54] Heartbeat #16
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:00:04] Heartbeat #17
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:00:15] Heartbeat #18
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:00:27] Heartbeat #19
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:00:38] Heartbeat #20
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:00:49] Heartbeat #21
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:01:00] Heartbeat #22
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:01:11] Heartbeat #23
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:01:22] Heartbeat #24
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:01:33] Heartbeat #25
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:01:44] Heartbeat #26
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:01:55] Heartbeat #27
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:02:07] Heartbeat #28
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:02:18] Heartbeat #29
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:02:29] Heartbeat #30
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:02:41] Heartbeat #31
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:02:51] Heartbeat #32
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:03:02] Heartbeat #33
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:03:14] Heartbeat #34
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:03:26] Heartbeat #35
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:03:37] Heartbeat #36
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:03:49] Heartbeat #37
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:04:01] Heartbeat #38
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:04:12] Heartbeat #39
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:04:25] Heartbeat #40
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:04:36] Heartbeat #41
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:04:48] Heartbeat #42
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:05:00] Heartbeat #43
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:05:12] Heartbeat #44
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:05:24] Heartbeat #45
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:05:36] Heartbeat #46
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:05:47] Heartbeat #47
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:05:59] Heartbeat #48
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:06:11] Heartbeat #49
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:06:23] Heartbeat #50
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:06:35] Heartbeat #51
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:06:47] Heartbeat #52
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:06:59] Heartbeat #53
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:07:10] Heartbeat #54
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:07:23] Heartbeat #55
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:07:35] Heartbeat #56
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:07:46] Heartbeat #57
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:07:58] Heartbeat #58
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:08:10] Heartbeat #59
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:08:21] Heartbeat #60
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:08:34] Heartbeat #61
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:08:45] Heartbeat #62
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:08:57] Heartbeat #63
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:09:09] Heartbeat #64
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:09:21] Heartbeat #65
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:09:32] Heartbeat #66
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:09:45] Heartbeat #67
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:09:56] Heartbeat #68
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:10:08] Heartbeat #69
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:10:20] Heartbeat #70
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:10:32] Heartbeat #71
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:10:44] Heartbeat #72
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:10:56] Heartbeat #73
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:11:07] Heartbeat #74
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:11:19] Heartbeat #75
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:11:31] Heartbeat #76
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:11:43] Heartbeat #77
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:11:54] Heartbeat #78
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 2
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:12:06] Heartbeat #79
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Coffee** (ID: 2)
+   Quantity: 8 | Threshold: 10
+   Price: $30.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:12:17] Heartbeat #80
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:12:27] Heartbeat #81
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:12:38] Heartbeat #82
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:12:48] Heartbeat #83
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:12:59] Heartbeat #84
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:13:11] Heartbeat #85
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 1
+⚠️ **LOW STOCK ALERT**
+
+🟡 **Milk** (ID: 1)
+   Quantity: 3 | Threshold: 5
+   Price: $10.00
+
+
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4ca' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't decode byte 0x8d in position 484: character maps to <undefined>
+
+[2026-05-08 02:13:22] Heartbeat #86
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:13:32] Heartbeat #87
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:13:42] Heartbeat #88
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:13:52] Heartbeat #89
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:02] Heartbeat #90
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:13] Heartbeat #91
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:23] Heartbeat #92
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:33] Heartbeat #93
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:44] Heartbeat #94
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:14:54] Heartbeat #95
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:04] Heartbeat #96
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:15] Heartbeat #97
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:25] Heartbeat #98
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:35] Heartbeat #99
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:46] Heartbeat #100
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:15:56] Heartbeat #101
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:06] Heartbeat #102
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:17] Heartbeat #103
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:27] Heartbeat #104
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:37] Heartbeat #105
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:48] Heartbeat #106
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:16:58] Heartbeat #107
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:17:08] Heartbeat #108
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:17:19] Heartbeat #109
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:17:29] Heartbeat #110
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:17:39] Heartbeat #111
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:17:50] Heartbeat #112
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:00] Heartbeat #113
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:10] Heartbeat #114
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:21] Heartbeat #115
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:31] Heartbeat #116
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:41] Heartbeat #117
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:18:52] Heartbeat #118
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:02] Heartbeat #119
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:12] Heartbeat #120
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:23] Heartbeat #121
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:33] Heartbeat #122
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:43] Heartbeat #123
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:19:54] Heartbeat #124
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:04] Heartbeat #125
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:14] Heartbeat #126
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:25] Heartbeat #127
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:35] Heartbeat #128
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:45] Heartbeat #129
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:20:56] Heartbeat #130
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:06] Heartbeat #131
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:16] Heartbeat #132
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:26] Heartbeat #133
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:36] Heartbeat #134
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:47] Heartbeat #135
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:21:57] Heartbeat #136
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:07] Heartbeat #137
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:17] Heartbeat #138
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:28] Heartbeat #139
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:38] Heartbeat #140
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:48] Heartbeat #141
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:22:59] Heartbeat #142
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:23:09] Heartbeat #143
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:23:19] Heartbeat #144
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:23:30] Heartbeat #145
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:23:40] Heartbeat #146
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:23:50] Heartbeat #147
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:01] Heartbeat #148
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:11] Heartbeat #149
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:21] Heartbeat #150
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:32] Heartbeat #151
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:42] Heartbeat #152
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:24:52] Heartbeat #153
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:25:03] Heartbeat #154
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:25:13] Heartbeat #155
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+[2026-05-08 02:25:23] Heartbeat #156
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal
+Error logging reasoning: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f9e0' in position 29: character maps to <undefined>
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f4a1' in position 29: character maps to <undefined>
+
+[2026-05-08 02:25:34] Heartbeat #157
+Error logging reasoning: 'charmap' codec can't encode character '\U0001f50d' in position 29: character maps to <undefined>
+Low stock items: 0
+✅ All stock levels are normal

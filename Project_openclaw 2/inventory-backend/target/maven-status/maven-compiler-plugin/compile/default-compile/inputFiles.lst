@@ -1,8 +1,8 @@
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/InventoryApplication.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/controller/InventoryController.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/controller/SettingsController.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Product.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/entity/Settings.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/exception/GlobalExceptionHandler.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/repository/ProductRepository.java
-/Users/roopin/Desktop/openclaw/Stock-Master-Sentinel/Project_openclaw 2/inventory-backend/src/main/java/com/stockmaster/inventory/repository/SettingsRepository.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\controller\InventoryController.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\controller\SettingsController.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\entity\Product.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\entity\Settings.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\exception\GlobalExceptionHandler.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\InventoryApplication.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\repository\ProductRepository.java
+C:\Users\anous\Stock-Master-Sentinel\Project_openclaw 2\inventory-backend\src\main\java\com\stockmaster\inventory\repository\SettingsRepository.java

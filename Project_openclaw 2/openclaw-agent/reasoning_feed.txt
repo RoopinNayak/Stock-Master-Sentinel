@@ -18,3 +18,641 @@ Action: Hi Team, our Milk stock is at 28. Please expedite the next shipment.
 Analysis: Audit logs indicate 'Missing Shipment'. Market data shows low shortage risk with stable prices due to Steady supply from Indian plantations.
 Action: Hi Team, our Tea Bags stock is at 38. Please expedite the next shipment.
 ----------------------------------------
+[2026-05-08 01:19:41] USER COMMAND: System Health Check
+[2026-05-08 01:23:19] USER COMMAND: Add new item Milk
+[2026-05-08 01:23:57] USER COMMAND: Add new item Coffee
+[2026-05-08 01:24:07] USER COMMAND: restock 10 milk
+[2026-05-08 01:24:24] USER COMMAND: System Health Check
+[2026-05-08 01:24:27] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 01:24:27] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08 01:25:02] USER COMMAND: restock 5 coffee
+[2026-05-08 01:25:11] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 01:25:11] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08 01:25:26] USER COMMAND: restock 30 coffee
+[2026-05-08 01:25:31] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 01:25:31] SYSTEM: Forced shortage detected for Milk (qty=3)
+[2026-05-08 01:25:39] USER COMMAND: restock 20 milk
+[2026-05-08 01:26:15] USER COMMAND: System Health Check
+[2026-05-08 01:26:17] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 01:26:17] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08 01:26:34] USER COMMAND: restock 30 coffee
+[2026-05-08 01:42:53] USER COMMAND: Run BI Analysis
+[2026-05-08 01:42:53] SYSTEM: BI Analysis executed on demand
+[2026-05-08 01:43:56] USER COMMAND: Run BI Analysis
+[2026-05-08 01:43:56] SYSTEM: BI Analysis executed on demand
+[2026-05-08 01:44:00] USER COMMAND: System Health Check
+[2026-05-08 01:45:20] USER COMMAND: Run BI Analysis
+[2026-05-08 01:45:20] SYSTEM: BI Analysis executed on demand
+[2026-05-08 01:52:59] USER COMMAND: Run BI Analysis
+[2026-05-08 01:52:59] SYSTEM: BI Analysis executed on demand
+[2026-05-08 01:56:36] USER COMMAND: System Health Check
+[2026-05-08 01:57:33] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 01:57:33] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T01:57:41.360890] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:57:52.307750] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:58:03.070455] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:58:14.717671] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:58:25.492381] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 01:58:29] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 01:58:29] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T01:58:36.339394] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:58:47.859789] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:58:58.715243] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:59:09.500596] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:59:21.015260] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:59:31.867173] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:59:42.655105] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T01:59:54.235055] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:00:05.062133] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:00:15.868091] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:00:27.627934] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:00:38.501917] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:00:49.438766] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:00.953560] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:11.866821] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:22.618751] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:34.158079] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:45.064826] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:01:55.972305] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:02:07.649253] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:02:18.620392] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:02:29.458119] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:02:41.217421] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:02:52.025541] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:03:00] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 02:03:00] SYSTEM: Forced shortage detected for Milk (qty=3)
+[2026-05-08T02:03:02.771197] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:03:03.405266] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:03:14.745013] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:03:15.478976] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:03:26.260623] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:03:26.913966] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:03:37.611907] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:03:38.350335] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:03:49.768220] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:03:50.648757] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:04:01.403837] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:04:02.312084] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:04:13.158835] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:04:13.976587] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:04:25.395333] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:04:26.119240] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:04:36.925037] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:04:37.978432] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:04:48.791070] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:04:49.579208] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:01.077658] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:05:01.769703] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:12.561963] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:05:13.448919] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:24.278121] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:05:24.907100] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:36.376646] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:05:37.110908] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:47.983685] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:05:48.798098] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:05:59.615258] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:06:00.465412] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:06:11.834384] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:06:12.677198] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:06:23.627984] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:06:24.614292] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:06:35.416226] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:06:36.190247] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:06:47.679200] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:06:48.491460] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:06:59.322647] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:00.178689] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:07:11.063361] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:11.832661] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:07:23.515779] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:24.595418] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:07:35.473735] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:36.139722] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:07:46.844587] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:47.627616] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:07:59.021327] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:07:59.824605] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:08:10.527294] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:08:11.254994] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:08:22.093949] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:08:22.794162] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:08:34.451996] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:08:35.174519] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:08:45.965432] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:08:46.810889] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:08:57.592259] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:08:58.295998] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:09:09.845985] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:09:10.574157] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:09:21.385505] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:09:22.139446] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:09:32.929478] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:09:33.658710] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:09:45.326596] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:09:46.124016] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:09:57.024073] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:09:57.766293] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:10:08.601831] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:10:09.317950] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:10:20.968863] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:10:21.968537] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:10:32.676246] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:10:33.419701] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:10:44.303060] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:10:45.142537] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:10:56.643479] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:10:57.420373] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:11:08.167298] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:11:08.953046] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:11:19.668269] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:11:20.511821] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:11:31.853762] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:11:32.608163] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:11:43.458435] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:11:44.272912] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:11:55.041758] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:11:55.719993] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:11:58] USER COMMAND: restock 40 milk
+[2026-05-08T02:12:07.030265] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Gradual Depletion'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:12:10] USER COMMAND: restock 5 coffee
+[2026-05-08 02:12:44] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 02:12:44] SYSTEM: Forced shortage detected for Milk (qty=3)
+[2026-05-08T02:12:49.193771] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 02:12:51] USER COMMAND: Run BI Analysis
+[2026-05-08 02:12:51] SYSTEM: BI Analysis executed on demand
+[2026-05-08T02:13:00.090299] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 02:13:01] USER COMMAND: System Health Check
+[2026-05-08T02:13:11.510898] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 02:13:13] USER COMMAND: restock 50 milk
+[2026-05-08 02:26:27] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 02:26:27] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T02:26:36.439973] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:26:47.356855] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:26:58.401815] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:27:09.995773] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:27:20.797703] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:27:31.620840] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:27:43.285848] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:27:47] USER COMMAND: restock 50 coffee
+[2026-05-08 02:27:51] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 02:27:51] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T02:27:54.108353] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:28:04] USER COMMAND: restock 100 coffee
+[2026-05-08 02:28:06] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 02:28:06] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T02:28:15.651724] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:28:25] USER COMMAND: restock 50 coffee
+[2026-05-08 02:28:30] USER COMMAND: Run BI Analysis
+[2026-05-08 02:28:30] SYSTEM: BI Analysis executed on demand
+[2026-05-08 02:28:45] USER COMMAND: restock 80 coffee
+[2026-05-08 02:28:48] USER COMMAND: Run BI Analysis
+[2026-05-08 02:28:48] SYSTEM: BI Analysis executed on demand
+[2026-05-08 02:28:59] USER COMMAND: System Health Check
+[2026-05-08 02:29:01] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 02:29:01] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T02:29:07.325600] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:29:18.728682] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:29:20] USER COMMAND: restock 100 coffee
+[2026-05-08 02:30:37] USER COMMAND: Simulate shortage for Coffee
+[2026-05-08 02:30:37] SYSTEM: Forced shortage detected for Coffee (qty=8)
+[2026-05-08T02:30:41.602877] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08T02:30:52.979577] Issue: Coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our Coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 02:30:57] USER COMMAND: restock 200 coffee
+[2026-05-08 02:31:53] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 02:31:53] SYSTEM: Forced shortage detected for Milk (qty=3)
+[2026-05-08T02:31:55.605045] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:32:06.380150] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:32:17.130320] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:32:28.562570] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T02:32:39.390393] Issue: Milk is at 3.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 3. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 02:32:42] USER COMMAND: restock 100 milk

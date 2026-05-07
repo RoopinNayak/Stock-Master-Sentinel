@@ -31,11 +31,12 @@
                 <select id="channel" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-slate-100 focus:border-cyan-400 focus:outline-none">
                     <option value="WhatsApp">WhatsApp</option>
                     <option value="Discord">Discord</option>
+                    <option value="Telegram">Telegram</option>
                 </select>
             </div>
             <div>
                 <label class="block text-sm font-medium text-slate-300">Channel ID / Webhook</label>
-                <input id="channelId" type="text" placeholder="+1234567890 or https://discord.com/api/webhooks/..." class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-slate-100 focus:border-cyan-400 focus:outline-none" />
+                <input id="channelId" type="text" placeholder="+1234567890, Discord webhook, or Telegram chat ID" class="mt-2 w-full rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-slate-100 focus:border-cyan-400 focus:outline-none" />
             </div>
             <div class="flex items-center justify-between gap-4">
                 <button onclick="saveSettings()" class="rounded-2xl bg-cyan-500 px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-cyan-400 transition">Save & Launch</button>
@@ -45,11 +46,26 @@
     </div>
 
     <script>
+        const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1500830410337292388/LPXVPpo8LZdPwqrJ2H9Cx4hLkvZxZ-T8Udj9hdAs8hJl2L2lrSpbqDRWS33oTiVD8KTO';
+        const channelSelect = document.getElementById('channel');
+        const channelIdInput = document.getElementById('channelId');
+
+        channelSelect.addEventListener('change', () => {
+            if (channelSelect.value === 'Discord') {
+                channelIdInput.value = DISCORD_WEBHOOK_URL;
+            } else if (channelSelect.value === 'Telegram') {
+                channelIdInput.placeholder = 'Telegram chat ID, e.g. 123456789';
+                channelIdInput.value = '';
+            } else {
+                channelIdInput.placeholder = '+1234567890, Discord webhook, or Telegram chat ID';
+            }
+        });
+
         async function saveSettings() {
             const storeName = document.getElementById('storeName').value.trim();
             const ownerName = document.getElementById('ownerName').value.trim();
-            const channel = document.getElementById('channel').value;
-            const channelId = document.getElementById('channelId').value.trim();
+            const channel = channelSelect.value;
+            const channelId = channelIdInput.value.trim();
 
             const status = document.getElementById('statusMessage');
             if (!storeName || !ownerName || !channelId) {

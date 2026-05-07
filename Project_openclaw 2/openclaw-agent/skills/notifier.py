@@ -14,6 +14,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 ENABLE_DISCORD = bool(DISCORD_WEBHOOK_URL)
 # Configuration
 # In production, use environment variables
@@ -81,6 +83,27 @@ def send_discord_alert(message, product_name, quantity, threshold, priority="nor
             return {"status": "error", "code": response.status_code}
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+def send_telegram_alert(message, chat_id=None):
+    """Send alert via Telegram bot."""
+    chat_id = chat_id or TELEGRAM_CHAT_ID
+    if not TELEGRAM_BOT_TOKEN or not chat_id:
+        return {"status": "skipped", "method": "telegram", "reason": "Telegram not configured"}
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": chat_id,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
+
+    try:
+        response = requests.post(url, json=payload, timeout=10)
+        if response.ok:
+            return {"status": "success", "method": "telegram"}
+        return {"status": "error", "method": "telegram", "code": response.status_code, "message": response.text}
+    except Exception as e:
+        return {"status": "error", "method": "telegram", "message": str(e)}
 
 def send_console_alert(message, product_name, quantity, threshold, priority="normal"):
     """Send alert to console (demo mode)"""
@@ -166,6 +189,11 @@ def main():
             })
             if ENABLE_CONSOLE:
                 send_console_alert(message, product_name, quantity, threshold, priority)
+    elif channel == "telegram":
+        result = send_telegram_alert(message, destination)
+        results.append(result)
+        if result.get("status") != "success" and ENABLE_CONSOLE:
+            send_console_alert(message, product_name, quantity, threshold, priority)
     else:
         result = send_console_alert(message, product_name, quantity, threshold, priority)
         results.append(result)
