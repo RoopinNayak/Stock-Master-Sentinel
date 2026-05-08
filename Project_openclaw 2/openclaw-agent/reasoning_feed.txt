@@ -700,3 +700,87 @@ Analysis: Audit logs indicate 'Missing Shipment'. Market data shows low shortage
 Action: Hi Team, our Tea Bag stock is at 8. Please expedite the next shipment.
 ----------------------------------------
 [2026-05-08 10:43:55] USER COMMAND: restock 100 tea bag
+[2026-05-08 16:49:12] USER COMMAND: Add new item Milk
+[2026-05-08 16:49:18] USER COMMAND: Add new item Coffee
+[2026-05-08 16:49:30] USER COMMAND: restock 40 milk
+[2026-05-08 16:49:33] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 16:49:33] SYSTEM: Forced shortage detected for Milk (qty=8)
+[2026-05-08 16:49:38] USER COMMAND: Run BI Analysis
+[2026-05-08 16:49:38] SYSTEM: BI Analysis executed on demand
+[2026-05-08T16:49:41.360809] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T16:49:52.277346] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 16:49:54] USER COMMAND: System Health Check
+[2026-05-08T16:50:03.048255] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 16:50:06] USER COMMAND: restock 20 milk
+[2026-05-08 16:51:15] USER COMMAND: Add new item Tea
+[2026-05-08 16:51:31] USER COMMAND: Add new item Milk
+[2026-05-08 16:51:38] USER COMMAND: restock 30 milk
+[2026-05-08 16:51:40] USER COMMAND: Simulate shortage for Milk
+[2026-05-08 16:51:40] SYSTEM: Forced shortage detected for Milk (qty=8)
+[2026-05-08 16:51:43] USER COMMAND: Run BI Analysis
+[2026-05-08 16:51:43] SYSTEM: BI Analysis executed on demand
+[2026-05-08T16:51:47.423412] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T16:51:58.267584] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T16:52:09.227377] Issue: Milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our Milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 16:52:09] USER COMMAND: restock 20 milk
+[2026-05-08 17:46:59] USER COMMAND: Add new item coffee
+[2026-05-08 17:47:09] USER COMMAND: Add new item milk
+[2026-05-08 17:47:30] USER COMMAND: restock 10 milk
+[2026-05-08 17:47:46] USER COMMAND: Simulate shortage for coffee
+[2026-05-08 17:47:46] SYSTEM: Forced shortage detected for coffee (qty=8)
+[2026-05-08T17:47:51.885654] Issue: coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 17:47:55] USER COMMAND: Run BI Analysis
+[2026-05-08 17:47:55] SYSTEM: BI Analysis executed on demand
+[2026-05-08T17:48:03.586093] Issue: coffee is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows high shortage risk with rising prices due to Brazil drought affecting coffee bean supply.
+Action: Hi Team, our coffee stock is at 8. Noticing rising market prices. Can we lock in a bulk order soon?
+----------------------------------------
+[2026-05-08 17:48:09] USER COMMAND: restock 20 coffee
+[2026-05-08 17:48:14] USER COMMAND: System Health Check
+[2026-05-08 17:49:00] USER COMMAND: Add new item tea
+[2026-05-08 17:49:08] USER COMMAND: Add new item milk
+[2026-05-08T17:49:16.327468] Issue: milk is at 10.
+Analysis: Audit logs indicate 'Unknown'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our milk stock is at 10. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 17:49:19] USER COMMAND: restock 40 milk
+[2026-05-08 17:49:28] USER COMMAND: Simulate shortage for milk
+[2026-05-08 17:49:28] SYSTEM: Forced shortage detected for milk (qty=8)
+[2026-05-08T17:49:38.171955] Issue: milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08T17:49:49.065411] Issue: milk is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows medium shortage risk with stable prices due to Seasonal demand increase, dairy strike possible.
+Action: Hi Team, our milk stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 17:49:49] USER COMMAND: restock 20 milk
+[2026-05-08 17:49:51] USER COMMAND: System Health Check
+[2026-05-08 17:50:22] USER COMMAND: Simulate shortage for tea
+[2026-05-08 17:50:22] SYSTEM: Forced shortage detected for tea (qty=8)
+[2026-05-08T17:50:31.010312] Issue: tea is at 8.
+Analysis: Audit logs indicate 'Missing Shipment'. Market data shows low shortage risk with stable prices due to Steady supply from Indian plantations.
+Action: Hi Team, our tea stock is at 8. Please expedite the next shipment.
+----------------------------------------
+[2026-05-08 17:50:42] USER COMMAND: restock 20 tea

@@ -8,3 +8,12 @@
 ::1 - - [08/May/2026 01:42:33] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [08/May/2026 01:45:06] "GET /index.html HTTP/1.1" 304 -
 ::1 - - [08/May/2026 02:28:12] "GET /index.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 10:15:42] "GET /login.html HTTP/1.1" 200 -
+::1 - - [08/May/2026 10:15:46] "GET /login.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 10:16:05] "GET /index.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 10:35:21] "GET /login.html HTTP/1.1" 200 -
+::1 - - [08/May/2026 16:46:08] "GET /login.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 16:46:13] "GET /login.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 16:48:56] "GET /index.html HTTP/1.1" 200 -
+::1 - - [08/May/2026 17:44:41] "GET /login.html HTTP/1.1" 304 -
+::1 - - [08/May/2026 17:46:40] "GET /index.html HTTP/1.1" 304 -
